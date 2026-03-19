@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi Exam</title>
+</head>
+<body>
+    <h1>Welcome to the Taxi Exam Application</h1>
+    <form action="/submit-taxi-exam" method="post">
+        <label for="taxiNumber">Taxi Number:</label>
+        <input type="text" id="taxiNumber" name="taxiNumber" required><br><br>
+
+        <label for="driverName">Driver Name:</label>
+        <input type="text" id="driverName" name="driverName" required><br><br>
+
+        <label for="examDate">Exam Date:</label>
+        <input type="date" id="examDate" name="examDate" required><br><br>
+
+        <input type="submit" value="Submit Exam">
+    </form>
+</body>
+</html>
